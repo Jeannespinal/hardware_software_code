@@ -1,11 +1,10 @@
 def main() :
-    name = "Jeann Espinal"
-    print("We want to know if you love programming!")
-    print()
-    print("Do you like programming " + name + "?")
-    answer = input()
-    print("Great! you said " + answer + "?")
-    print("Let's start learning some Python today")
+    name = input("what is your name?")
+    print("we want to know if you like programming?")
+    answer = input("Do you like programming "+name+ "?")
+    print('Great! you said, "'+answer+'!"')
+    print("Leet's learn some python today")
+
 
 if __name__ == "__main__":
     main()
