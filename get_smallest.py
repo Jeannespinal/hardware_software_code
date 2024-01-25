@@ -15,4 +15,4 @@ def main():
             print("Smallest number is:" , smallest)
 
 if __name__ == "__main__":
- main()
+    main()
